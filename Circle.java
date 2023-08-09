@@ -5,11 +5,11 @@ class Circle {
         this.radius = radius;
     }
 
-    static double area(double radius) {
+    public static double area(double radius) {
         return PI * (radius * radius);
     }
 
-    static double circumference(double radius) {
+    public static double circumference(double radius) {
         return 2 * PI * radius;
     }
 }
